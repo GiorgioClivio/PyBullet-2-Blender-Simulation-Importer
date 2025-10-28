@@ -40,10 +40,10 @@ This enables comparison between different training sessions, visual debugging, a
 🧱 Repository Structure
 -----------------------
 
-pybullet-blender-bridge/
+PyBullet-2-Blender-Simulation-Importer/
 │
-├── pyBulletSimRecorder_no_deps.py     # Standalone simulation recorder for PyBullet
-├── pyBulletSimImporter_v3.py          # Blender add-on for importing .pkl files
+├── pyBulletSimRecorder.py     # Standalone simulation recorder for PyBullet
+├── pyBulletSimImporter.py          # Blender add-on for importing .pkl files
 ├── README.md                          # Documentation and usage instructions
 └── terrains/                          # (Optional) auto-generated STL terrains
 
@@ -68,7 +68,7 @@ To install Trimesh (only needed if exporting terrains):
 1️⃣ Recording a Simulation
 
 In your PyBullet script:
-    from pyBulletSimRecorder_no_deps import PyBulletRecorder
+    from pyBulletSimRecorder import PyBulletRecorder
 
     rec = PyBulletRecorder()
     rec.start()        # start recording
@@ -112,9 +112,9 @@ These meshes can be loaded later in Blender using the importer’s “Terrain”
 🧩 Plugin Workflow
 ------------------
 
-1. Record Simulation → pyBulletSimRecorder_no_deps.py
+1. Record Simulation → pyBulletSimRecorder.py
 2. Export .pkl + optional STL terrain
-3. Import in Blender → pyBulletSimImporter_v3.py
+3. Import in Blender → pyBulletSimImporter.py
 4. Render & Analyse in Blender’s animation timeline
 
 
@@ -122,8 +122,9 @@ These meshes can be loaded later in Blender using the importer’s “Terrain”
 --------------------------------
 
 Clone the repository:
-    git clone https://github.com/<your-username>/pybullet-blender-bridge.git
-    cd pybullet-blender-bridge
+    git clone https://github.com/<your-username>/PyBullet-2-Blender-Simulation-Importer.git
+    cd PyBullet-2-Blender-Simulation-Importer
+
 
 Install dependencies:
     pip install numpy trimesh pybullet
