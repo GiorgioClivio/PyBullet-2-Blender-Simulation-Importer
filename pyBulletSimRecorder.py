@@ -7,6 +7,7 @@ Includes metadata such as FPS, frame count, and seed.
 
 Author: Giorgio Clivio
 License: GNU General Public License v3 (GPLv3)
+Repository: https://github.com/GiorgioClivio/PyBullet-2-Blender-Simulation-Importer
 """
 
 import pybullet as p
