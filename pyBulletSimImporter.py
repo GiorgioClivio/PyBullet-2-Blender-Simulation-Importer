@@ -1,3 +1,22 @@
+"""
+PyBullet Simulation Importer (Blender Add-on)
+
+Imports recorded PyBullet simulations (.pkl files) into Blender as animated objects,
+with support for range selection, frame decimation, playback speed remapping, and 
+optional terrain mesh import (STL).
+
+This add-on allows researchers and developers to visualise PyBullet simulation
+results in Blender for high-quality rendering and analysis, enabling playback 
+of robotic motion with adjustable temporal resolution and camera angles.
+
+Author: Giorgio Clivio
+Version: 0.3.0
+Blender: 4.5+
+License: GNU General Public License v3 (GPLv3)
+Repository: https://github.com/GiorgioClivio/PyBullet-2-Blender-Simulation-Importer
+"""
+
+
 bl_info = {
     "name": "PyBullet Simulation Importer (v3)",
     "author": "Giorgio Clivio",
