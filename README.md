@@ -8,7 +8,7 @@ This project includes:
 2. pyBulletSimImporter – a Blender add-on that reads those .pkl files, reconstructs the animation, and optionally imports the terrain mesh for rendering.
 
 <p align="center">
-  <img src="PyBullet-2-Blender_Simulation_Importer.png" alt="PyBullet to Blender Importer Overview" width="720"/>
+  <img src="PyBullet-2-Blender_Simulation_Importer.png" alt="PyBullet to Blender Importer Overview" width="1920"/>
 </p>
 
 📦 Features
