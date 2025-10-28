@@ -2,11 +2,11 @@
 PyBullet Simulation Recorder (no external deps)
 
 Records link and body poses from a running PyBullet simulation and saves them
-to a .pkl file for later import into Blender or other visualization tools.
+to a .pkl file for later import into Blender or other visualisation tools.
 Includes metadata such as FPS, frame count, and seed.
 
 Author: Giorgio Clivio
-License: MIT
+License: GNU General Public License v3 (GPLv3)
 """
 
 import pybullet as p
