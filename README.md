@@ -41,11 +41,10 @@ This enables comparison between different training sessions, visual debugging, a
 -----------------------
 
 PyBullet-2-Blender-Simulation-Importer/
-│
-├── pyBulletSimRecorder.py     # Standalone simulation recorder for PyBullet
-├── pyBulletSimImporter.py          # Blender add-on for importing .pkl files
-├── README.md                          # Documentation and usage instructions
-└── terrains/                          # (Optional) auto-generated STL terrains
+- pyBulletSimRecorder.py     # Standalone simulation recorder for PyBullet
+- pyBulletSimImporter.py          # Blender add-on for importing .pkl files
+- README.md                          # Documentation and usage instructions
+- terrains/                          # (Optional) auto-generated STL terrains
 
 
 ⚙️ Requirements
