@@ -100,6 +100,7 @@ Any heightfield that produces a float32 matrix H (in meters) can be exported.
 The recorder can generate a surface mesh (STL) from a procedural heightfield.
 
 Example excerpt:
+
     ```python
     mesh = trimesh.Trimesh(vertices=vertices, faces=faces, process=False)
     os.makedirs("terrains", exist_ok=True)
