@@ -101,7 +101,6 @@ The recorder can generate a surface mesh (STL) from a procedural heightfield.
 
 Example excerpt:
 
-    ```python
     mesh = trimesh.Trimesh(vertices=vertices, faces=faces, process=False)
     os.makedirs("terrains", exist_ok=True)
     mesh.export(stl_path)
