@@ -7,6 +7,9 @@ This project includes:
 1. pyBulletSimRecorder – a lightweight recorder that captures PyBullet simulations and saves them as structured .pkl files.
 2. pyBulletSimImporter – a Blender add-on that reads those .pkl files, reconstructs the animation, and optionally imports the terrain mesh for rendering.
 
+<p align="center">
+  <img src="PyBullet-2-Blender_Simulation_Importer.png" alt="PyBullet to Blender Importer Overview" width="720"/>
+</p>
 
 📦 Features
 -----------
